@@ -14,17 +14,7 @@ steps:
       locationName: WORK
       materializationType: table
       metadata:
-        appliedNodeTests:
-          - continueOnFailure: true
-            description: ""
-            name: Test
-            runOrder: After
-            templateString: ""
-          - continueOnFailure: true
-            description: ""
-            name: Test 1
-            runOrder: After
-            templateString: ""
+        appliedNodeTests: []
         columns:
           - appliedColumnTests:
               hasNull: true
